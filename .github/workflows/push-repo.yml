@@ -13,5 +13,5 @@ jobs:
           fetch-depth: 0
       - run: git config --global user.email "20838718+FireMasterK@users.noreply.github.com"
       - run: git config --global user.name "FireMasterK"
-      - run: git commit --amend --no-edit
+      - run: git commit --amend --allow-empty --no-edit
       - run: git push --force
